@@ -1,0 +1,32 @@
+services:
+  centinelas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: centinelas-app
+    restart: unless-stopped
+    env_file:
+      - .env
+    ports:
+      - "127.0.0.1:9000:9000"
+    volumes:
+      - centinelas_data:/var/www/html/storage
+    command:
+      - sh
+      - -c
+      - |
+        mkdir -p storage/app storage/framework/cache/data storage/framework/sessions storage/framework/views storage/logs
+        touch "$$DB_DATABASE"
+        chown -R www-data:www-data storage
+        exec php-fpm
+    mem_limit: 384m
+    cpus: 0.75
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  centinelas_data:
+    name: centinelas_data

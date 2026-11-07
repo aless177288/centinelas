@@ -71,3 +71,9 @@ Thumbs.db
 !/storage/framework/views/.gitignore
 /storage/logs/*
 !/storage/logs/.gitignore
+
+# Respaldos locales del build
+/public/build.backup-*/
+
+# Respaldos locales del build
+/public/build.backup-*/
