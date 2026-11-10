@@ -102,7 +102,7 @@
             --gold: #b79546;
             --muted: #5b6878;
         }
-        * { box-sizing: border-box; }
+- { box-sizing: border-box; }
         ::selection { background: #eadcb9; color: #103b62; }
         header {
             background: #fff !important;
@@ -127,12 +127,56 @@
     <!-- Encabezado institucional -->
     <header class="w-full bg-white border-b border-[#e2d5b3] py-4 px-4 text-center shadow-sm">
         <p class="text-xs uppercase tracking-widest text-[#876b28] font-bold">
-            Parroquia Sagrados Corazones | Diócesis de Nuevo Laredo
+            Este viernes 20 de noviembre de 2026
         </p>
         <p class="text-sm sm:text-base text-[#5b6878] tracking-wider mt-1">
             Centinelas de San José — Siempre Vigilantes
         </p>
     </header>
+  
+<h2 class="text-xl font-bold text-[#064b80]block md:hidden">Detalles de la conferencia en Nuevo Laredo</h2>
+            <div class="block md:hidden bg-gradient-to-br from-white to-[#f0f5fa] border border-[#d8e2ec] rounded-2xl p-5 sm:p-6 shadow-md space-y-4 relative overflow-hidden">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                    <div class="flex items-start space-x-3">
+                        <div class="p-2.5 bg-[#f5efdf] rounded-xl text-[#876b28] border border-[#e2d5b3] flex-shrink-0">
+                            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="15" rx="2"/><path d="M8 3v6m8-6v6M4 12h16"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-[#5b6878] uppercase tracking-wider font-semibold">Fecha</p>
+                            <p class="text-[#103b62] font-bold text-sm">viernes 20 de noviembre de 2026</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="p-2.5 bg-[#f5efdf] rounded-xl text-[#876b28] border border-[#e2d5b3] flex-shrink-0">
+                            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-[#5b6878] uppercase tracking-wider font-semibold">Horario</p>
+                            <p class="text-[#103b62] font-bold text-sm">7:00 PM a 9:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="p-2.5 bg-[#f5efdf] rounded-xl text-[#876b28] border border-[#e2d5b3] flex-shrink-0">
+                            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-[#5b6878] uppercase tracking-wider font-semibold">Ubicación</p>
+                            <p class="text-[#103b62] font-bold text-sm">Salón Vilchis</p>
+                            <p class="text-xs text-[#5b6878]">Parroquia Sagrados Corazones · Nuevo Laredo, Tamaulipas</p>
+                            <p class="text-xs text-[#5b6878] mt-1">C. Perú 3115, Col. Juárez, C.P. 88209, Nuevo Laredo, Tamaulipas.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3">
+                        <div class="p-2.5 bg-[#f5efdf] rounded-xl text-[#876b28] border border-[#e2d5b3] flex-shrink-0">
+                            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/></svg>
+                        </div>
+                        <div>
+                            <p class="text-xs text-[#5b6878] uppercase tracking-wider font-semibold">Expositor</p>
+                            <p class="text-[#103b62] font-bold text-sm">Psic. Miguel Coronado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     <!-- Contenido principal -->
     <main class="max-w-6xl mx-auto px-4 py-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
         <!-- Columna izquierda: información del evento -->
@@ -160,8 +204,8 @@
                 </em>
             </p>
             <!-- Información del evento -->
-<h2 class="text-xl font-bold text-[#064b80]">Detalles de la conferencia en Nuevo Laredo</h2>
-            <div class="bg-gradient-to-br from-white to-[#f0f5fa] border border-[#d8e2ec] rounded-2xl p-5 sm:p-6 shadow-md space-y-4 relative overflow-hidden">
+<h2 class="hidden md:block text-xl font-bold text-[#064b80]">Detalles de la conferencia en Nuevo Laredo</h2>
+            <div class="hidden md:block bg-gradient-to-br from-white to-[#f0f5fa] border border-[#d8e2ec] rounded-2xl p-5 sm:p-6 shadow-md space-y-4 relative overflow-hidden">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div class="flex items-start space-x-3">
                         <div class="p-2.5 bg-[#f5efdf] rounded-xl text-[#876b28] border border-[#e2d5b3] flex-shrink-0">
@@ -169,7 +213,7 @@
                         </div>
                         <div>
                             <p class="text-xs text-[#5b6878] uppercase tracking-wider font-semibold">Fecha</p>
-                            <p class="text-[#103b62] font-bold text-sm">20 de noviembre de 2026</p>
+                            <p class="text-[#103b62] font-bold text-sm">viernes 20 de noviembre de 2026</p>
                         </div>
                     </div>
                     <div class="flex items-start space-x-3">
@@ -325,7 +369,7 @@ Registro a la conferencia
     <!-- Footer institucional -->
     <footer class="text-center py-6 text-xs text-[#5b6878] border-t border-[#dbe4ed] bg-white">
         <p class="font-semibold text-[#34475a]">
-            Centinelas de San José — Siempre Vigilantes
+            Este viernes 20 de noviembre de 2026
         </p>
         <p class="text-[11px] text-[#617083] mt-1">
             Parroquia Sagrados Corazones © {{ date('Y') }}
